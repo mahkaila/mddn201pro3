@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="$ThemeDir/css/bootstrap.css" rel="stylesheet"/>
+    <link href="$ThemeDir/css/style.css" rel="stylesheet"/>
+    <link href="$ThemeDir/css/base.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="$ThemeDir/css/slick.css"/>
+  	<link rel="stylesheet" type="text/css" href="$ThemeDir/css/slick-theme.css"/>
+    <script src="javascript/jquery-1.11.1.min.js" type="text/javascript"></script>
+	<link href='https://fonts.googleapis.com/css?family=Inconsolata:700,400' rel='stylesheet' type='text/css'>    
+</head>
+<body margin="0" padding="0">	
+    <!-- sideBar -->
+<div class="container-fluid mainSite">
+		
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 leftBar">
+        	<div class="container-fluid menuBar">
+	        	<div class="col-sm-12 logo">
+                    <div class="span4"></div>
+                    <div class="span4"><img src="$ThemeDir/img/SoD__HeaderImg.png" class="img-responsive center-block" /></div>
+                    <div class="span4"></div>
+                    
+                </div>
+	        	
+	        	<div class="col-sm-12 about">
+                    <div class="row hmHeading">ABOUT THE SOD</div>
+                    <div class="row hmText">
+                        <p style="padding:10px;">
+                        	The School of Design at Victoria University offers
+							students a unique opportunity to study within a
+							multi-disciplinary environment.<br/> Located in Wellington,
+							New Zealand the creative capital, we attract the best
+							and brightest from all over the world.
+						</p>
+                    </div>
+                </div>
+	        	<div class="col-sm-12 menu">
+                    <ul class="nav nav-stacked">
+                    	<li class="menuSelect"><a href="#">Home</a></li>
+						<li class="menuSelect"><a href="#">About</a></li>
+						<li class="menuSelect"><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+	        	
+	        </div>
+        </div>
+        <!-- sidebar ends -->  
+        
+         <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+         
+         <!--<% include FilterBar %>
+            <!-- Main Container -->
+        	<div class="container-fluid">
+                <!-- breadcrumbs -->
+                <div class="row breadCrumbs">
+                	<!--$Breadcrumbs-->
+                    <!-- <ol class="breadcrumb">
+                        
+                        <li>Filters: <i style="color:#d91c5c;">Media</i> 
+                            and <i style="color:#90278e;">Master of Design Innovation<strong> current page: $Title</strong></i></a>
+                        </li>
+                        
+                    </ol> -->
+                </div>
+                <!-- breadcrumbs end -->
+                <!-- packery container -->
+                <div id="container" class="packery js-packery" data-packery-options='{ "columnWidth": ".grid-sizer", "itemSelector": ".item"}'>
+            		<div id="content">
+                		<!--$Content
+                		$Form-->
+                          
+                            <!--<div class="grid-sizer"></div>
+                            <div class="item">
+                                <img alt="cat" src="img/cat1.jpg">
+                            </div>
+                            <div class="item">
+                                <img alt="cat" src="img/cat3.jpg">
+                            </div>
+                            <div class="item">
+                                <img alt="cat" src="img/cat2.jpg">
+                            </div>
+                            <div class="item">
+                                <img alt="box" src="img/box1.jpg">
+                            </div>
+                            <div class="item">
+                                <img alt="cat" src="img/cat1.jpg">
+                            </div>
+                            <div class="item">
+                                <img alt="cat" src="img/cat3.jpg">
+                            </div>
+                            <div class="item">
+                                <img alt="cat" src="img/cat2.jpg">
+                            </div>
+                            <div class="item">
+                                <img alt="box" src="img/box1.jpg">
+                            </div>
+                            <div class="item">
+                                <img alt="cat" src="img/cat1.jpg">
+                            </div>
+                            <div class="item">
+                                <img alt="cat" src="img/cat3.jpg">
+                            </div>
+                            <div class="item">
+                                <img alt="cat" src="img/cat2.jpg">
+                            </div>
+                            <div class="item">
+                                <img alt="box" src="img/box1.jpg">
+                            </div>-->
+            <div id="container">
+            	<div class="projectMain col-xs-12">
+            		<div class="carousel col-xs-12">
+						<div class="slider-nav">
+    						<div><img src="$ThemeDir/img/mddn251.png"/></div>
+    						<div><img src="$ThemeDir/img/mddn311.png"/></div>
+    						<div><img src="$ThemeDir/img/mddn251.png"/></div>
+    						<div><img src="$ThemeDir/img/mddn311.png"/></div>
+    						<div><img src="$ThemeDir/img/mddn251.png"/></div>
+    						<div><img src="$ThemeDir/img/mddn251.png"/></div>
+    						<div><img src="$ThemeDir/img/mddn311.png"/></div>
+    						<div><img src="$ThemeDir/img/mddn251.png"/></div>
+  						</div>
+ 						<div class="slider-for">
+    						<div><img src="$ThemeDir/img/mddn251.png"/></div>
+    						<div><img src="$ThemeDir/img/mddn311.png"/></div>
+    						<div><img src="$ThemeDir/mddn251.png"/></div>
+    						<div><img src="$ThemeDir/img/mddn311.png"/></div>
+    						<div><img src="$ThemeDir/img/mddn251.png"/></div>
+    						<div><img src="$ThemeDir/img/mddn251.png"/></div>
+    						<div><img src="$ThemeDir/img/mddn311.png"/></div>
+    						<div><img src="$ThemeDir/img/mddn251.png"/></div>
+  						</div>
+  					</div>
+						<!--<ul class="pgwSlideshow">
+    						<li><img src="img/mddn251.png"/></li>
+    						<li><img src="img/mddn311.png"/></li>
+    						<li><img src="img/mddn251.png"/></li>
+    						<li><img src="img/mddn311.png"/></li>
+    						<li><img src="img/mddn251.png"/></li>
+    						<li><img src="img/mddn311.png"/></li>
+    						<li><img src="img/mddn251.png"/></li>
+    						<li><img src="img/mddn311.png"/></li>
+						</ul>-->
+						<div class="textContainer">
+						
+						
+							<table>
+							<tr>
+								<th>Title</th>
+								<td><h2><a href="#">Pinokio</a></h2></td>
+							</tr>
+							<tr>
+								<th>Designer</th>
+								<td class="designer"><a href="#">Adam Ben-Dror & Shanshan Zhou</a></td>
+							</tr>
+							<tr>
+								<th>Discipline</th>
+								<td>Industrial and Media</td>
+							</tr>
+							<tr>
+								<th>Lecturer</th>
+								<td>Walter Langelaar</td>
+							</tr>
+							<tr>
+								<th>Paper</th>
+								<td class="courseLink"><a href="#">Physical Computing [MDDN 251]</a></td>
+							</tr>
+							<tr>
+								<th>Date</th>
+								<td>20/06/2013</td>
+							</tr>
+							<tr>
+								<th>Description</th>
+								<td></td>
+							</tr>
+							
+							</table>
+							<div class="projectDetailsDivider"></div>
+							<div class="projectDetails">
+								<h4 class="projectDetailHeaders">Tags:</h4>
+									<ul class="tagsList">
+										<li><a href="#">Adam Ben-Dror</a> | </li>
+										<li><a href="#">Shanshan Zhou</a> | </li>
+										<li><a href="#">VUW Media</a> | </li>
+										<li><a href="#">MDDN 251</a> | </li>
+										<li><a href="#">Physical Computing</a> | </li>
+										<li><a href="#">Arduino</a> | </li>
+										<li><a href="#">Processing</a> | </li>
+										<li><a href="#">Victoria University of Wellington</a> | </li>
+									</ul>
+								<h4 class="projectDetailHeaders">Project Links:</h4>
+									<ul class="projectLinksTags">
+										<li><a href="#">Promotional Video</a></li>
+										<li><a href="#">Project Page</a></li>
+										<li><a href="#">Festival Exhibition</a></li>
+									</ul>
+								<h4 class="projectDetailHeaders">Download:</h4>
+									<ul class="downloadTags">
+										<li><a href="#">Processing Sketch</a></li>
+										<li><a href="#">Arduino Sketch</a></li>
+									</ul>
+							</div>
+							<div class="shareMenu">
+    							<div class="shareBlock1"><a href="#"><img src="$ThemeDir/img/pinterest.png"/></a></div>
+								<div class="shareBlock2"><a href="#"><img src="$ThemeDir/img/tumblr.png"/></a></div>
+								<div class="shareBlock3"><a href="#"><img src="$ThemeDir/img/facebook.png"/></a></div>
+								<div class="shareBlock4"><a href="#"><img src="$ThemeDir/img/twitter.png"/></a></div>
+								<div class="shareBlock5"><a href="#"><img src="$ThemeDir/img/share.png"/></a></div>
+								<a class="dropdown-toggle"><div class="shareBlock6"><img src="img/Media_SubLogo_Rollover.png"/></div></a>
+								
+								<div class="dropdown-menu">
+									<div class="fy"><a href="#"><img src= "$ThemeDir/img/SoD__FirstYear_SubLogo_Rollover.png"/></a></div>
+									
+									<div class="fy"><a href="#"><img src= "$ThemeDir/img/SoD__CultureContext_SubLogo_Rollover.png"/></a></div>
+									
+									<div class="fy"><a href="#"><img src= "$ThemeDir/img/SoD__Idustrial_SubLogo_Rollover.png"/></a></div>
+									
+									<div class="fy"><a href="#"><img src= "$ThemeDir/img/SoD__MDI_SubLogo_Rollover.png"/></a></div>
+									
+									<div class="fy"><a href="#"><img src= "$ThemeDir/img/Media_SubLogo_Rollover.png"/></a></div>
+									
+								</div>
+								
+							</div>
+							<div class="description col-xs-3">
+								<p>Pinokio is an exploration into the expressive and behavioural potentials
+								of robotic computing. Customized computer code and electronic circuit design
+								imbues Pinokio with the ability to be aware of its environment, especially
+								people, and to express a dynamic range of behaviour. Pinokio is an exploration into the expressive and behavioural potentials
+								of robotic computing. Customized computer code and electronic circuit design
+								imbues Pinokio with the ability to be aware of its environment, especially
+								people, and to express a dynamic range of behaviour.</p>
+							</div>
+				</div> 
+				        
+			<div class="stretch"></div>	        
+				                 
+            </div>
+            <div class="col-xs-12 moreFromContainer">
+				        
+				        	<div class="moreImageDesigner1">
+				        		<a href="#"><div class="hoverDesign"></div><img src="$ThemeDir/img/mddn251.png"/></a>
+				        	</div>
+				        	<div class="moreImageDesigner2">
+				        		<a href="#"><div class="hoverDesign"></div><img src="$ThemeDir/img/mddn311.png"/></a>
+				        	</div>
+				        				        	
+				        	<div class="moreFromDivide">
+				        	</div>
+				        	
+				        	<div class="moreImageCourse1">
+				        		<a href="#"><div class="hoverDesign"></div><img src="$ThemeDir/img/mddn251.png"/></a>
+				        	</div>
+				        	<div class="moreImageCourse2">
+				        		<a href="#"><div class="hoverDesign"></div><img src="$ThemeDir/img/mddn311.png"/></a>
+				        	</div>
+				        	
+				        	<p class="moreDesigner">more projects from <a href="#">Shanshan Zhou</a></p>
+				        	<p class="moreCourse">more projects from <a href="#">Physical Computing [MDDN 251]</a></p>
+				        </div>  
+          </div>   
+            	
+				             
+                    </div>
+                </div>
+                <!-- packery container ends -->
+                </div>
+        	</div>
+        </div>
+        
+        
+</div>
+		
+	<script src="$ThemeDir/javascript/jquery-1.11.3.min.js"></script>
+    <script src="$ThemeDir/javascript/bootstrap.min.js"></script>
+    <script src="$ThemeDir/javascript/packery.pkgd.min.js"></script>
+    <script src="$ThemeDir/javascript/base.js" type="text/javascript"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  	<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  	<script type="text/javascript" src="$ThemeDir/javascript/slick.min.js"></script>
+    <script src="$ThemeDir/javascript/app.js"></script>
